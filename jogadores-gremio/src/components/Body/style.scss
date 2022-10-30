@@ -13,14 +13,30 @@ $borderColor: $defaultFontColor;
     height: 20%;
     .all {
         align-items: center;
-        // Ajustar com display: flex;
+        display: flex;
+        margin: auto;
+        width: 80%;
+        @media (max-width: $mediumSize) {
+            flex-direction: column;
+        }
 
         .body {
             display: flex;
             flex-direction: column;
             align-items: center;
-            flex: 1;
-            padding-right: 50px;
+            width: 50%;
+            @media (max-width: $mediumSize) {
+                width: 100%;
+            }
+            .body-title {
+                color: $defaultFontColor;
+                h1 {
+                    font-size: $mobileTitle;
+                    @media (min-width: $mediumSize) {
+                        font-size: $desktopTitle;
+                    }
+                }
+            }
             input {
                 margin: 5px;
                 border: 0;
@@ -39,23 +55,58 @@ $borderColor: $defaultFontColor;
                 color: $buttonFontColor;
                 text-align: center;
                 font-family: $secondaryFont;
-                transform: scale(0.95);
                 transition: all ease 0.2s;
                 margin-top: 10px;
                 width: 25vw;
                 height: 7vh;
+                max-width: 170px;
+                &:hover {
+                    transform: scale(1.05);
+                    box-shadow: 10px 5px 5px #27272ad3;
+                    cursor: pointer;
+                }
             }
         }
         .description {
-            padding-left: 50px;
             font-family: $secondaryFont;
+            width: 50%;
+            @media (max-width: $mediumSize) {
+                margin-top: 30px;
+                width: 100%;
+                text-align: center;
+            }
         }
-        .playerImage {
-            height: 540px;
-            width: 432px;
-            box-shadow: 9px 7px 20px 8px $playerShadow;
-            margin: 20px 0;
+        .mainPlayerPart {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            @media (max-width: $mediumSize) {
+                margin: 30px 0;
+            }
+            h2 {
+                font-size: $mobileSubtitle;
+                @media (min-width: $mediumSize) {
+                    font-size: $desktopSubtitle;
+                }
+            }
+            p {
+                margin: 10px 0;
+            }
+            .playerImage {
+                height: 535px;
+                width: 80%;
+                box-shadow: 0 0 20px 8px $playerShadow;
+                margin: 20px 0;
+                object-fit: cover;
+                border-radius: 5px;
+                @media (max-width: $mediumSize) {
+                    width: 100%;
+                    height: 85%;
+                }
+            }
         }
+
     }
 }
 

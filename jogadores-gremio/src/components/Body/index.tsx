@@ -1,6 +1,7 @@
-import './style.css'
+import './style.scss'
 import { useState } from 'react';
 import { Jogadores } from '../../sources/Players/Players';
+import ProjectDescription from '../ProjectDescription';
 const Body = () => {
     type Props = {
         number: string;
@@ -74,7 +75,9 @@ const Body = () => {
         <div className="container">
             <div className='all'>
                 <div className="body">
-                    <h3>Dados do cartão:</h3>
+                    <div className="body-title">
+                        <h1>Dados do cartão:</h1>
+                    </div>
                     <input type="text" id="name" value={creditCard.number} required placeholder="Número do cartão..." onChange={(e)=> {
                         setCreditCard({
                             ...creditCard, 
@@ -99,17 +102,14 @@ const Body = () => {
                 </div>
                 <div className={!toShow ? 'description' : ''}>
                     {!toShow &&
-                        <>
-                            <p>O site começou a ser desenvolvido durante uma aula do terceiro ano de programação, na qual recebemos um trabalho que deveríamos pedir alguns dados e retornar algum resultado.</p>
-                            <p>Minha ideia inicial do projeto era recriar um meme que circulou pelo país há algum tempo atrás, porém, caso eu pedisse as informações do meme o resultado sería um jogador completamente aleatório.</p>
-                        </>
+                        <ProjectDescription />
                     }
                     {toShow &&
-                        <div>
+                        <section className='mainPlayerPart'>
                             <h2>Segundo os nossos cálculos, você é o {player.position} {player.name}</h2>
                             <img className='playerImage' src={player.image} alt={player.name} />
                             <p>DESCRÇÃO</p>
-                        </div>
+                        </section>
                     }
                 </div>
             </div>
