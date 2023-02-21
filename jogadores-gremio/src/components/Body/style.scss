@@ -1,5 +1,26 @@
 @import '../../sources/GeneralConfigs/config.scss';
 $borderColor: $defaultFontColor;
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: $buttonColor;
+    color: $buttonFontColor;
+    text-align: center;
+    font-family: $secondaryFont;
+    transition: all ease 0.2s;
+    margin-top: 10px;
+    width: 25vw;
+    // height: 7vh;
+    padding: 10px;
+    max-width: 170px;
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px 2px #27272ad3;
+        cursor: pointer;
+    }
+}
 .container {
     display: flex;
     align-items: center;
@@ -46,26 +67,7 @@ $borderColor: $defaultFontColor;
                     color: $defaultFontColor;
                 }
             }
-            .button{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 10px;
-                background-color: $buttonColor;
-                color: $buttonFontColor;
-                text-align: center;
-                font-family: $secondaryFont;
-                transition: all ease 0.2s;
-                margin-top: 10px;
-                width: 25vw;
-                height: 7vh;
-                max-width: 170px;
-                &:hover {
-                    transform: scale(1.05);
-                    box-shadow: 10px 5px 5px #27272ad3;
-                    cursor: pointer;
-                }
-            }
+            
         }
         .description {
             font-family: $secondaryFont;

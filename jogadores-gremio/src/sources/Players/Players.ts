@@ -2,7 +2,7 @@
 import Brenno from './images/Brenno.png';
 import Fabio from './images/Fabio.png';
 import Geromel from './images/Geromel.png';
-import Kannemann from './images/Kannemann.png';
+import Kannemann from './images/Kannemann.png'; 
 import ThiagoSantos from './images/Thiago Santos.png';
 import DiogoBarbosa from './images/Diogo Barbosa.png';
 import Carballo from './images/Carballo.png';
