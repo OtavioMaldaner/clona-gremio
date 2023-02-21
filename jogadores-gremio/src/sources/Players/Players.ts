@@ -1,35 +1,40 @@
 // imagens dos jogadores
 import Brenno from './images/Brenno.png';
+import Fabio from './images/Fabio.png';
 import Geromel from './images/Geromel.png';
 import Kannemann from './images/Kannemann.png';
 import ThiagoSantos from './images/Thiago Santos.png';
 import DiogoBarbosa from './images/Diogo Barbosa.png';
-import Campaz from './images/Campaz.png';
-import Elkeson from './images/Elkeson.png';
+import Carballo from './images/Carballo.png';
+import Suarez from './images/Suarez.png';
 import Ferreira from './images/Ferreira.png';
-import Guilherme from './images/Guilherme.png';
+import Vina from './images/Vina.png';
 import GabrielGrando from './images/Gabriel Grando.png';
-import PedroLucas from './images/Pedro Lucas.png';
+import Galdino from './images/Galdino.png';
 import LucasLeiva from './images/Lucas Leiva.png';
+import BrunoUvini from './images/Bruno Uvini.png';
 import LucasSilva from './images/Lucas Silva.png';
-import Biel from './images/Biel.png';
-import Janderson from './images/Janderson.png';
-import RodrigoFerreira from './images/Rodrigo Ferreira.png';
-import JhonataRobert from './images/Jhonata Robert.png';
+import Gustavinho from './images/Gustavinho.png';
+import JoaoPedro from './images/Joao Pedro.png';
+import Cristaldo from './images/Cristaldo.png';
 import Villasanti from './images/Villasanti.png';
+import Reinaldo from './images/Reinaldo.png';
+import Pepe from './images/Pepe.png';
+import JhonataRobert from './images/Jhonata Robert.png';
 import Thaciano from './images/Thaciano.png';
 import DiegoSouza from './images/Diego Souza.png';
-import Nicolas from './images/Nícolas.png';
 import Adriel from './images/Adriel.png';
-import Edilson from './images/Edílson.png';
 import BrunoAlves from './images/Bruno Alves.png'; 
-import Nata from './images/Natã.png';
+import Ronald from './images/Ronald.png';
+import Nata from './images/Nata.png';
 import Bitello from './images/Bitello.png';
 import FelipeScheibig from './images/Felipe Scheibig.png';
-import FernandoHenrique from './images/Fernando Henrique.png';
 import JhonataVarela from './images/Jhonata Varela.png';
-import Emerson from './images/Emerson.png';
-// import Sarara from './images/Mateus Sarará.png';
+import Rubens from './images/Rubens.png';
+import Zinho from './images/Zinho.png';
+import KauanKelvin from './images/Kauan Kelvin.png';
+import GustavoMartins from './images/Gustavo Martins.png';
+import Cuiabano from './images/Cuiabano.png';
 import GabrielSilva from './images/Gabriel Silva.png';
 export type Jogador = {
     name: string,
@@ -40,6 +45,10 @@ export const Jogadores = [{
     name: "Brenno",
     position: "goleiro",
     image: Brenno,
+}, {
+    name: "Fábio",
+    position: "lateral direito",
+    image: Fabio,
 }, {
     name: "Geromel",
     position: "zagueiro",
@@ -57,57 +66,69 @@ export const Jogadores = [{
     position: "lateral esquerdo",
     image: DiogoBarbosa,
 }, {
-    name: "Jaminton Campaz",
-    position: "meia",
-    image: Campaz,
+    name: "Felipe Carballo",
+    position: "meio campo",
+    image: Carballo,
 }, {
-    name: "Elkeson",
+    name: "Luís Suárez",
     position: "atacante",
-    image: Elkeson,
+    image: Suarez,
 }, {
     name: "Ferreira",
     position: "atacante",
     image: Ferreira,
 }, {
-    name: "Guilherme",
-    position: "atacante",
-    image: Guilherme,
+    name: "Vina",
+    position: "meia atacante",
+    image: Vina,
 }, {
     name: "Gabriel Grando",
     position: "goleiro",
     image: GabrielGrando,
 }, {
-    name: "Pedro Lucas",
+    name: "Everton Galdino",
     position: "meia",
-    image: PedroLucas,
+    image: Galdino,
 }, {
     name: "Lucas Leiva",
     position: "volante",
     image: LucasLeiva,
 }, {
+    name: "Bruno Uvini",
+    position: "zagueiro",
+    image: BrunoUvini,
+}, {
     name: "Lucas Silva",
     position: "volante",
     image: LucasSilva,
 }, {
-    name: "Biel",
+    name: "Gustavinho",
     position: "atacante",
-    image: Biel,
+    image: Gustavinho,
 }, {
-    name: "Janderson",
-    position: "atacante",
-    image: Janderson,
-}, {
-    name: "Rodrigo Ferreira",
+    name: "João Pedro",
     position: "lateral direito",
-    image: RodrigoFerreira,
+    image: JoaoPedro,
 }, {
-    name: "Jhonata Robert",
-    position: "atacante",
-    image: JhonataRobert,
+    name: "Franco Cristaldo",
+    position: "meia atacante",
+    image: Cristaldo,
 }, {
     name: "Mathías Villasanti",
     position: "volante",
     image: Villasanti
+}, {
+    name: "Reinaldo",
+    position: "lateral esquerdo",
+    image: Reinaldo,
+}, {
+    name: "Pepê",
+    position: "meio campo",
+    image: Pepe,
+}, {
+    name: "Jhonata Robert",
+    position: "atacante",
+    image: JhonataRobert,
 }, {
     name: "Thaciano",
     position: "meia",
@@ -117,21 +138,17 @@ export const Jogadores = [{
     position: "atacante",
     image: DiegoSouza,
 }, {
-    name: "Nícolas",
-    position: "lateral esquerdo",
-    image: Nicolas,
-}, {
     name: "Adriel",
     position: "goleiro",
     image: Adriel,
 }, {
-    name: "Edílson",
-    position: "lateral direito",
-    image: Edilson,
-}, {
     name: "Bruno Alves",
     position: "zagueiro",
     image: BrunoAlves,
+}, {
+    name: "Ronald",
+    position: "volante",
+    image: Ronald,
 }, {
     name: "Natã",
     position: "zagueiro",
@@ -145,22 +162,30 @@ export const Jogadores = [{
     position: "goleiro",
     image: FelipeScheibig,
 }, {
-    name: "Fernando Henrique",
-    position: "volante",
-    image: FernandoHenrique,
-}, {
     name: "Jhonata Varela",
     position: "volante",
     image: JhonataVarela,
 }, {
-    name: "Emerson",
+    name: "Rubens",
     position: "atacante",
-    image: Emerson,
-}, /*{
-    name: "Matheus Sarará",
-    position: "volante",
-    image: Sarara,
-}, */{
+    image: Rubens,
+}, {
+    name: "Zinho",
+    position: "atacante",
+    image: Zinho,
+}, {
+    name: "Kauan Kelvin",
+    position: "meia atacante",
+    image: KauanKelvin,
+}, {
+    name: "Gustavo Martins",
+    position: "zagueiro",
+    image: GustavoMartins,
+}, {
+    name: "Cuiabano",
+    position: "lateral esquerdo",
+    image: Cuiabano,
+}, {
     name: "Gabriel Silva",
     position: "meia",
     image: GabrielSilva,

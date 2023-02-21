@@ -11,10 +11,10 @@ $borderColor: $defaultFontColor;
     min-width: $minSize;
     margin: auto;
     height: 20%;
+    width: 100%;
     .all {
         align-items: center;
         display: flex;
-        margin: auto;
         width: 80%;
         @media (max-width: $mediumSize) {
             flex-direction: column;
@@ -95,10 +95,10 @@ $borderColor: $defaultFontColor;
             }
             .playerImage {
                 height: 535px;
-                width: 80%;
+                width: 355px;
                 box-shadow: 0 0 20px 8px $playerShadow;
                 margin: 20px 0;
-                object-fit: cover;
+                // object-fit: cover;
                 border-radius: 5px;
                 @media (max-width: $mediumSize) {
                     width: 100%;

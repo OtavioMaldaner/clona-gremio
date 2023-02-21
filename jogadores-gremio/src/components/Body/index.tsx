@@ -54,11 +54,19 @@ const Body = () => {
         setToShow(true);
         let creditCardNumber = creditCard.number.split(".");
         let sumCreditCard = Number(creditCardNumber[0]) + Number(creditCardNumber[1]) + Number(creditCardNumber[2]) + Number(creditCardNumber[3]);
-        let date = Number(creditCard.date.substring(creditCard.date.length - 2));
+        console.log(creditCardNumber[0] + ' | ' + creditCardNumber[1] + ' | ' + creditCardNumber[2] + ' | ' + creditCardNumber[3] + ' = ' + sumCreditCard);
+        let date = Number(creditCard.date.substring(2, 4));
+        console.log('Data: ' + date);
         let sum = sumCreditCard + date;
-        let divide = sum / Number(creditCard.cvc);
+        console.log('Soma: ' + sum);
+        let divide = Math.round(sum / Number(creditCard.cvc));
+        console.log('CVC' + creditCard.cvc);
+        console.log('Divisão: ' + divide);
         let multiply = divide * 1000;
+        console.log('Multiplicação: ' + multiply);
         let rest = Math.round(multiply % Jogadores.length);
+        console.log('Jogadores: ' + Jogadores.length);
+        console.log('Resto: ' + rest);
         setPlayer({
             name: Jogadores[rest].name,
             position: Jogadores[rest].position,
