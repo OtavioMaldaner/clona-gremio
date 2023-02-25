@@ -36,12 +36,32 @@ import KauanKelvin from './images/Kauan Kelvin.png';
 import GustavoMartins from './images/Gustavo Martins.png';
 import Cuiabano from './images/Cuiabano.png';
 import GabrielSilva from './images/Gabriel Silva.png';
+
+// imagens das nabas
+import Kleber from './imagensNabas/Kleber.png';
+import YuriMamute from './imagensNabas/Yuri Mamute.png';
+import FacundoBertoglio from './imagensNabas/Bertoglio.png';
+import Werley from './imagensNabas/Werley.png';
+import Miralles from './imagensNabas/Miralles.png';
+import Marquinhos from './imagensNabas/Marquinhos.png';
+import Saimon from './imagensNabas/Saimon.png';
+import Cris from './imagensNabas/Cris.png';
+import Wellinton from './imagensNabas/Wellinton.png';
+import Para from './imagensNabas/Para.png';
+import AndreSantos from './imagensNabas/Andre Santos.png';
+import MaxiRodrigues from './imagensNabas/Maxi Rodrigues.png';
+import Adriano from './imagensNabas/Adriano.png';
+import LucasCoelho from './imagensNabas/Lucas Coelho.png';
+import Bobo from './imagensNabas/Bobo.png';
+import Fred from './imagensNabas/Fred.png';
+import Negueba from './imagensNabas/Negueba.png';
+
 export type Jogador = {
     name: string,
     position: string,
     image: string,
 }
-export const Jogadores = [{
+export const Jogadores: Jogador[] = [{
     name: "Brenno",
     position: "goleiro",
     image: Brenno,
@@ -189,4 +209,89 @@ export const Jogadores = [{
     name: "Gabriel Silva",
     position: "meia",
     image: GabrielSilva,
+}]
+
+
+
+
+export const Nabas: Jogador[] = [{
+    name: "Thiago Santos",
+    position: "volante",
+    image: ThiagoSantos,
+}, {
+    name: "Thaciano",
+    position: "versátil",
+    image: Thaciano,
+}, {
+    name: "Kléber Gladiador",
+    position: "atacante",
+    image: Kleber
+}, {
+    name: "Yuri Mamute",
+    position: "atacante",
+    image: YuriMamute
+}, {
+    name: "Facundo Bertoglio",
+    position: "atacante",
+    image: FacundoBertoglio
+}, {
+    name: "Diogo Barbosa",
+    position: "lateral esquerdo",
+    image: DiogoBarbosa,
+}, {
+    name: "Werley",
+    position: "zagueiro",
+    image: Werley 
+}, {
+    name: "Miralles",
+    position: "atacante",
+    image: Miralles
+}, {
+    name: "Marquinhos",
+    position: "meia atacante",
+    image: Marquinhos
+}, {
+    name: "Saimon",
+    position: "zagueiro",
+    image: Saimon
+}, {
+    name: "Cris",
+    position: "zagueiro",
+    image: Cris
+}, {
+    name: "Wellinton",
+    position: "atacante",
+    image: Wellinton
+}, {
+    name: "Pará",
+    position: "lateral direito",
+    image: Para
+}, {
+    name: "André Santos",
+    position: "atacante",
+    image: AndreSantos
+}, {
+    name: "Maxi Rodrigues",
+    position: "meio campo",
+    image: MaxiRodrigues
+}, {
+    name: "Adriano Pagode",
+    position: "volante",
+    image: Adriano
+}, {
+    name: "Lucas Coelho",
+    position: "atacante",
+    image: LucasCoelho
+}, {
+    name: "Bobô",
+    position: "atacante",
+    image: Bobo
+}, {
+    name: "Fred",
+    position: "zagueiro",
+    image: Fred
+}, {
+    name: "Negueba",
+    position: "atacante",
+    image: Negueba
 }]
