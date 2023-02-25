@@ -41,45 +41,51 @@ const Body = () => {
     }
     return out;
     }
-    const result = () => {
-        let now = new Date();
-        let year = now.getFullYear();
-        if (creditCard.cvc.length < 3 || creditCard.number.length < 19 || Number(creditCard.date.substring(0, 4)) < year) {
-            setToShow(true);
-            let number = Math.floor(Math.random() * Nabas.length);
-            setPlayer({
-                name: Nabas[number].name,
-                position: Nabas[number].position,
-                image: Nabas[number].image
-            })
-            setCreditCard({
-                number: '',
-                cvc: '',
-                date: ''
-            });
+    const result = (): boolean => {
+        if (creditCard.cvc != '' || creditCard.date != '' || creditCard.number != '') {
+            let now = new Date();
+            let year = now.getFullYear();
+            if (creditCard.cvc.length < 3 || creditCard.number.length < 19 || Number(creditCard.date.substring(0, 4)) < year) {
+                setToShow(true);
+                let number = Math.floor(Math.random() * Nabas.length);
+                setPlayer({
+                    name: Nabas[number].name,
+                    position: Nabas[number].position,
+                    image: Nabas[number].image
+                })
+                setCreditCard({
+                    number: '',
+                    cvc: '',
+                    date: ''
+                });
+            } else {
+                /*A conta criada é para gerar um resultado bem aleatório, mas de modo que caso a pessoa insira os mesmos dados o resultado seja o mesmo.
+                A função consiste em dividir os números do cartão em quatro unidades e somar todas elas. Após isto, serão somados os números finais do ano
+                de vencimento do cartão e dividir a soma total pelo código de segurança. Para não haver tanta repetição de resultados, multiplicaremos o resultado por 1000,
+                e pegar o resto da divisão pelo tamanho do array de objetos jogadores.*/
+                setToShow(true);
+                let creditCardNumber = creditCard.number.split(".");
+                let sumCreditCard = Number(creditCardNumber[0]) + Number(creditCardNumber[1]) + Number(creditCardNumber[2]) + Number(creditCardNumber[3]);
+                let date = Number(creditCard.date.substring(2, 4));
+                let sum = sumCreditCard + date;
+                let divide = Math.round(sum / Number(creditCard.cvc));
+                let multiply = divide * 1000;
+                let rest = Math.round(multiply % Jogadores.length);
+                setPlayer({
+                    name: Jogadores[rest].name,
+                    position: Jogadores[rest].position,
+                    image: Jogadores[rest].image,
+                })
+                setCreditCard({
+                    number: '',
+                    cvc: '',
+                    date: ''
+                });
+            }
+            return true;
         } else {
-            /*A conta criada é para gerar um resultado bem aleatório, mas de modo que caso a pessoa insira os mesmos dados o resultado seja o mesmo.
-            A função consiste em dividir os números do cartão em quatro unidades e somar todas elas. Após isto, serão somados os números finais do ano
-            de vencimento do cartão e dividir a soma total pelo código de segurança. Para não haver tanta repetição de resultados, multiplicaremos o resultado por 1000,
-            e pegar o resto da divisão pelo tamanho do array de objetos jogadores.*/
-            setToShow(true);
-            let creditCardNumber = creditCard.number.split(".");
-            let sumCreditCard = Number(creditCardNumber[0]) + Number(creditCardNumber[1]) + Number(creditCardNumber[2]) + Number(creditCardNumber[3]);
-            let date = Number(creditCard.date.substring(2, 4));
-            let sum = sumCreditCard + date;
-            let divide = Math.round(sum / Number(creditCard.cvc));
-            let multiply = divide * 1000;
-            let rest = Math.round(multiply % Jogadores.length);
-            setPlayer({
-                name: Jogadores[rest].name,
-                position: Jogadores[rest].position,
-                image: Jogadores[rest].image,
-            })
-            setCreditCard({
-                number: '',
-                cvc: '',
-                date: ''
-            });
+            alert('Preencha os campos para fazer o teste!')
+            return false;
         }
     }
     return(
@@ -101,7 +107,7 @@ const Body = () => {
                             cvc: e.target.value
                         })
                     }}></input>
-                    <input type="month" value={creditCard.date} id="date" onChange={(e)=> {
+                    <input type="month" value={creditCard.date} id="date" required onChange={(e)=> {
                         setCreditCard({
                             ...creditCard, 
                             date: e.target.value
