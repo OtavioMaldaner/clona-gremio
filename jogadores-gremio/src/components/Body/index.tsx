@@ -1,25 +1,20 @@
 import './style.scss'
 import { useState } from 'react';
-import { Jogadores, Nabas } from '../../sources/Players/Players';
+import { Jogador, Jogadores, Nabas } from '../../sources/Players/Players';
 import ProjectDescription from '../ProjectDescription';
 const Body = () => {
-    type Props = {
+    type credit_card = {
         number: string;
         cvc: string;
         date: string;
     }
-    type PlayerProps = {
-        name: string,
-        position: string,
-        image: string,
-    }
-    const [creditCard, setCreditCard] = useState<Props>({
+    const [creditCard, setCreditCard] = useState<credit_card>({
         number: '',
         cvc: '',
         date: ''
     });
     const [toShow, setToShow] = useState<boolean>(false);
-    const [player, setPlayer] = useState<PlayerProps>({
+    const [player, setPlayer] = useState<Jogador>({
         name: '',
         position: '',
         image:''
@@ -47,7 +42,9 @@ const Body = () => {
     return out;
     }
     const result = () => {
-        if (creditCard.cvc.length < 3 || creditCard.number.length < 19) {
+        let now = new Date();
+        let year = now.getFullYear();
+        if (creditCard.cvc.length < 3 || creditCard.number.length < 19 || Number(creditCard.date.substring(0, 4)) < year) {
             setToShow(true);
             let number = Math.floor(Math.random() * Nabas.length);
             setPlayer({
@@ -122,7 +119,6 @@ const Body = () => {
                         <section className='mainPlayerPart'>
                             <h2>Segundo os nossos cálculos, você é o {player.position} {player.name}</h2>
                             <img className='playerImage' src={player.image} alt={player.name} />
-                            <p>DESCRÇÃO</p>
                             <div>
                                 <button className="button" onClick={((e) => {
                                     setToShow(false);
