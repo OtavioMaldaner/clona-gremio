@@ -3,15 +3,14 @@ import Brenno from './images/Brenno.png';
 import Fabio from './images/Fabio.png';
 import Geromel from './images/Geromel.png';
 import Kannemann from './images/Kannemann.png'; 
-import ThiagoSantos from './images/Thiago Santos.png';
 import DiogoBarbosa from './images/Diogo Barbosa.png';
+import Nathan from './images/Nathan.png';
 import Carballo from './images/Carballo.png';
 import Suarez from './images/Suarez.png';
 import Ferreira from './images/Ferreira.png';
 import Vina from './images/Vina.png';
 import GabrielGrando from './images/Gabriel Grando.png';
 import Galdino from './images/Galdino.png';
-import LucasLeiva from './images/Lucas Leiva.png';
 import BrunoUvini from './images/Bruno Uvini.png';
 import LucasSilva from './images/Lucas Silva.png';
 import Gustavinho from './images/Gustavinho.png';
@@ -21,7 +20,6 @@ import Villasanti from './images/Villasanti.png';
 import Reinaldo from './images/Reinaldo.png';
 import Pepe from './images/Pepe.png';
 import JhonataRobert from './images/Jhonata Robert.png';
-import Thaciano from './images/Thaciano.png';
 import DiegoSouza from './images/Diego Souza.png';
 import Adriel from './images/Adriel.png';
 import BrunoAlves from './images/Bruno Alves.png'; 
@@ -35,9 +33,11 @@ import Zinho from './images/Zinho.png';
 import KauanKelvin from './images/Kauan Kelvin.png';
 import GustavoMartins from './images/Gustavo Martins.png';
 import Cuiabano from './images/Cuiabano.png';
-import GabrielSilva from './images/Gabriel Silva.png';
+import AndreHenrique from './images/André Henrique.png';
 
 // imagens das nabas
+import Thaciano from './imagensNabas/Thaciano.png';
+import ThiagoSantos from './imagensNabas/Thiago Santos.png'
 import Kleber from './imagensNabas/Kleber.png';
 import YuriMamute from './imagensNabas/Yuri Mamute.png';
 import FacundoBertoglio from './imagensNabas/Bertoglio.png';
@@ -78,13 +78,13 @@ export const Jogadores: Jogador[] = [{
     position: "zagueiro",
     image: Kannemann,
 }, {
-    name: "Thiago Santos",
-    position: "volante",
-    image: ThiagoSantos,
-}, {
     name: "Diogo Barbosa",
     position: "lateral esquerdo",
     image: DiogoBarbosa,
+},{
+    name: "Nathan",
+    position: "meia",
+    image: Nathan,
 }, {
     name: "Felipe Carballo",
     position: "meio campo",
@@ -109,11 +109,7 @@ export const Jogadores: Jogador[] = [{
     name: "Everton Galdino",
     position: "meia",
     image: Galdino,
-}, {
-    name: "Lucas Leiva",
-    position: "volante",
-    image: LucasLeiva,
-}, {
+},{
     name: "Bruno Uvini",
     position: "zagueiro",
     image: BrunoUvini,
@@ -149,11 +145,7 @@ export const Jogadores: Jogador[] = [{
     name: "Jhonata Robert",
     position: "atacante",
     image: JhonataRobert,
-}, {
-    name: "Thaciano",
-    position: "meia",
-    image: Thaciano,
-}, {
+},{
     name: "Diego Souza",
     position: "atacante",
     image: DiegoSouza,
@@ -206,9 +198,9 @@ export const Jogadores: Jogador[] = [{
     position: "lateral esquerdo",
     image: Cuiabano,
 }, {
-    name: "Gabriel Silva",
-    position: "meia",
-    image: GabrielSilva,
+    name: "André Henrique",
+    position: "atacante",
+    image: AndreHenrique
 }]
 
 
