@@ -1,36 +1,33 @@
 // imagens dos jogadores
 import Brenno from './images/Brenno.png';
-import Fabio from './images/Fabio.png';
+import Fabio from './images/Fábio.png';
 import Geromel from './images/Geromel.png';
 import Kannemann from './images/Kannemann.png'; 
-import DiogoBarbosa from './images/Diogo Barbosa.png';
 import Nathan from './images/Nathan.png';
-import Carballo from './images/Carballo.png';
-import Suarez from './images/Suarez.png';
+import Carballo from './images/Felipe Carballo.png';
+import Suarez from './images/Luís Suárez.png';
 import Ferreira from './images/Ferreira.png';
 import Vina from './images/Vina.png';
 import GabrielGrando from './images/Gabriel Grando.png';
-import Galdino from './images/Galdino.png';
+import Galdino from './images/Everton Galdino.png';
 import BrunoUvini from './images/Bruno Uvini.png';
 import LucasSilva from './images/Lucas Silva.png';
 import Gustavinho from './images/Gustavinho.png';
-import JoaoPedro from './images/Joao Pedro.png';
-import Cristaldo from './images/Cristaldo.png';
-import Villasanti from './images/Villasanti.png';
+import JoaoPedro from './images/João Pedro.png';
+import Cristaldo from './images/Franco Cristaldo.png';
+import Villasanti from './images/Mathías Villasanti.png';
 import Reinaldo from './images/Reinaldo.png';
-import Pepe from './images/Pepe.png';
+import Pepe from './images/Pepê.png';
 import JhonataRobert from './images/Jhonata Robert.png';
 import DiegoSouza from './images/Diego Souza.png';
 import Adriel from './images/Adriel.png';
 import BrunoAlves from './images/Bruno Alves.png'; 
 import Ronald from './images/Ronald.png';
-import Nata from './images/Nata.png';
+import Nata from './images/Natã.png';
 import Bitello from './images/Bitello.png';
 import FelipeScheibig from './images/Felipe Scheibig.png';
-import JhonataVarela from './images/Jhonata Varela.png';
 import Rubens from './images/Rubens.png';
 import Zinho from './images/Zinho.png';
-import KauanKelvin from './images/Kauan Kelvin.png';
 import GustavoMartins from './images/Gustavo Martins.png';
 import Cuiabano from './images/Cuiabano.png';
 import AndreHenrique from './images/André Henrique.png';
@@ -38,21 +35,45 @@ import AndreHenrique from './images/André Henrique.png';
 // imagens das nabas
 import Thaciano from './imagensNabas/Thaciano.png';
 import ThiagoSantos from './imagensNabas/Thiago Santos.png'
-import Kleber from './imagensNabas/Kleber.png';
+import DiogoBarbosa from './imagensNabas/Diogo Barbosa.png';
+import Guilherme from './imagensNabas/Guilherme.png';
+import RodrigoFerreira from './imagensNabas/Rodrigo Ferreira.png';
+import JamintonCampaz from './imagensNabas/Jaminton Campaz.png';
+import Janderson from './imagensNabas/Janderson.png';
+import Ricardinho from './imagensNabas/Ricardinho.png';
+import EliasManoel from './imagensNabas/Elias Manoel.png';
+import Sarara from './imagensNabas/Sarará.png';
+import Benitez from './imagensNabas/Benítez.png';
+import Tonhao from './imagensNabas/Tonhão.png';
+import Rildo from './imagensNabas/Rildo.png';
+import Orejuela from './imagensNabas/Luís Orejuela.png';
+import Churin from './imagensNabas/Diego Churín.png';
+import DC from './imagensNabas/Douglas Costa.png';
+import Alisson from './imagensNabas/Alisson.png';
+import Borja from './imagensNabas/Borja.png';
+import PauloMiranda from './imagensNabas/Paulo Miranda.png';
+import Everton from './imagensNabas/Everton Cenourinha.png';
+import Darlan from './imagensNabas/Darlan.png';
+import LeoPereira from './imagensNabas/Léo Pereira.png';
+import LuizFernando from './imagensNabas/Luiz Fernando.png';
+import Ruan from './imagensNabas/Ruan 70k.png';
+import Emanuel from './imagensNabas/Emanuel.png';
+import Felipe from './imagensNabas/Felipe Albuquerque.png';
+import Kleber from './imagensNabas/Kléber Gladiador.png';
 import YuriMamute from './imagensNabas/Yuri Mamute.png';
-import FacundoBertoglio from './imagensNabas/Bertoglio.png';
+import FacundoBertoglio from './imagensNabas/Facundo Bertoglio.png';
 import Werley from './imagensNabas/Werley.png';
 import Miralles from './imagensNabas/Miralles.png';
 import Marquinhos from './imagensNabas/Marquinhos.png';
 import Saimon from './imagensNabas/Saimon.png';
 import Cris from './imagensNabas/Cris.png';
 import Wellinton from './imagensNabas/Wellinton.png';
-import Para from './imagensNabas/Para.png';
-import AndreSantos from './imagensNabas/Andre Santos.png';
+import Para from './imagensNabas/Pará.png';
+import AndreSantos from './imagensNabas/André Santos.png';
 import MaxiRodrigues from './imagensNabas/Maxi Rodrigues.png';
-import Adriano from './imagensNabas/Adriano.png';
+import Adriano from './imagensNabas/Adriano Pagode.png';
 import LucasCoelho from './imagensNabas/Lucas Coelho.png';
-import Bobo from './imagensNabas/Bobo.png';
+import Bobo from './imagensNabas/Bobô.png';
 import Fred from './imagensNabas/Fred.png';
 import Negueba from './imagensNabas/Negueba.png';
 
@@ -78,10 +99,6 @@ export const Jogadores: Jogador[] = [{
     position: "zagueiro",
     image: Kannemann,
 }, {
-    name: "Diogo Barbosa",
-    position: "lateral esquerdo",
-    image: DiogoBarbosa,
-},{
     name: "Nathan",
     position: "meia",
     image: Nathan,
@@ -174,10 +191,6 @@ export const Jogadores: Jogador[] = [{
     position: "goleiro",
     image: FelipeScheibig,
 }, {
-    name: "Jhonata Varela",
-    position: "volante",
-    image: JhonataVarela,
-}, {
     name: "Rubens",
     position: "atacante",
     image: Rubens,
@@ -185,10 +198,6 @@ export const Jogadores: Jogador[] = [{
     name: "Zinho",
     position: "atacante",
     image: Zinho,
-}, {
-    name: "Kauan Kelvin",
-    position: "meia atacante",
-    image: KauanKelvin,
 }, {
     name: "Gustavo Martins",
     position: "zagueiro",
@@ -215,33 +224,125 @@ export const Nabas: Jogador[] = [{
     position: "versátil",
     image: Thaciano,
 }, {
-    name: "Kléber Gladiador",
-    position: "atacante",
-    image: Kleber
-}, {
-    name: "Yuri Mamute",
-    position: "atacante",
-    image: YuriMamute
-}, {
-    name: "Facundo Bertoglio",
-    position: "atacante",
-    image: FacundoBertoglio
-}, {
     name: "Diogo Barbosa",
     position: "lateral esquerdo",
     image: DiogoBarbosa,
 }, {
-    name: "Werley",
-    position: "zagueiro",
-    image: Werley 
-}, {
-    name: "Miralles",
+    name: "Guilherme",
     position: "atacante",
-    image: Miralles
+    image: Guilherme,
+}, {
+    name: "Rodrigo Ferreira",
+    position: "lateral direito",
+    image: RodrigoFerreira,
+}, {
+    name: "Jaminton Campaz",
+    position: "meia",
+    image: JamintonCampaz,
+}, {
+    name: "Janderson",
+    position: "atacante",
+    image: Janderson,
+}, {
+    name: "Ricardinho",
+    position: "atacante",
+    image: Ricardinho,
+}, {
+    name: "Elias Manoel",
+    position: "atacante",
+    image: EliasManoel,
+}, {
+    name: "Sarará",
+    position: "meio campo",
+    image: Sarara,
+}, {
+    name: "Martín Benítez",
+    position: "meia",
+    image: Benitez,
+}, {
+    name: "Tonhão (Rodrigues)",
+    position: "zagueiro / lateral direito",
+    image: Tonhao,
+}, {
+    name: "Rildo",
+    position: "atacante",
+    image: Rildo,
+}, {
+    name: "Luís Orejuela (Panita)",
+    position: "lateral direito",
+    image: Orejuela,
+}, {
+    name: "Diego Churín",
+    position: "atacante",
+    image: Churin,
+}, {
+    name: "Douglas Costa",
+    position: "atacante",
+    image: DC,
+}, {
+    name: "Alisson",
+    position: "versátil",
+    image: Alisson,
+}, {
+    name: "Miguel Borja",
+    position: "atacante",
+    image: Borja,
+}, {
+    name: "Paulo Miranda",
+    position: "zagueiro",
+    image: PauloMiranda,
+}, {
+    name: "Everton Cenourinha",
+    position: "atacante",
+    image: Everton,
+}, {
+    name: "Darlan",
+    position: "meio campo",
+    image: Darlan,
+}, {
+    name: "Léo Pereira",
+    position: "atacante",
+    image: LeoPereira,
+}, {
+    name: "Luíz Fernando",
+    position: "atacante",
+    image: LuizFernando,
+}, {
+    name: "Ruan 70k",
+    position: "zagueiro",
+    image: Ruan,
+}, {
+    name: "Emanuel",
+    position: "zagueiro",
+    image: Emanuel,
+}, {
+    name: "Felipe Albuquerque",
+    position: "lateral direito",
+    image: Felipe,
+},{
+    name: "Negueba",
+    position: "atacante",
+    image: Negueba
+}, {
+    name: "Fred",
+    position: "zagueiro",
+    image: Fred
+}, {
+    name: "Bobô",
+    position: "atacante",
+    image: Bobo
+}, {
+    name: "Lucas Coelho",
+    position: "atacante",
+    image: LucasCoelho
 }, {
     name: "Marquinhos",
     position: "meia atacante",
     image: Marquinhos
+}, {
+    name: "Adriano Pagode",
+    position: "volante",
+    image: Adriano
 }, {
     name: "Saimon",
     position: "zagueiro",
@@ -267,23 +368,23 @@ export const Nabas: Jogador[] = [{
     position: "meio campo",
     image: MaxiRodrigues
 }, {
-    name: "Adriano Pagode",
-    position: "volante",
-    image: Adriano
-}, {
-    name: "Lucas Coelho",
+    name: "Miralles",
     position: "atacante",
-    image: LucasCoelho
+    image: Miralles
 }, {
-    name: "Bobô",
-    position: "atacante",
-    image: Bobo
-}, {
-    name: "Fred",
+    name: "Werley",
     position: "zagueiro",
-    image: Fred
+    image: Werley 
 }, {
-    name: "Negueba",
+    name: "Facundo Bertoglio",
     position: "atacante",
-    image: Negueba
+    image: FacundoBertoglio
+}, {
+    name: "Yuri Mamute",
+    position: "atacante",
+    image: YuriMamute
+}, {
+    name: "Kléber Gladiador",
+    position: "atacante",
+    image: Kleber
 }]

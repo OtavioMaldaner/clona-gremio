@@ -68,8 +68,8 @@ const Body = () => {
                 let sumCreditCard = Number(creditCardNumber[0]) + Number(creditCardNumber[1]) + Number(creditCardNumber[2]) + Number(creditCardNumber[3]);
                 let date = Number(creditCard.date.substring(2, 4));
                 let sum = sumCreditCard + date;
-                let divide = Math.round(sum / Number(creditCard.cvc));
-                let multiply = divide * 1000;
+                let divide = sum / Number(creditCard.cvc);
+                let multiply = divide * 10000;
                 let rest = Math.round(multiply % Jogadores.length);
                 setPlayer({
                     name: Jogadores[rest].name,

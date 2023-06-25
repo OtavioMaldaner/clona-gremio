@@ -89,6 +89,7 @@ $borderColor: $defaultFontColor;
             }
             h2 {
                 font-size: $mobileSubtitle;
+                text-align: center;
                 @media (min-width: $mediumSize) {
                     font-size: $desktopSubtitle;
                 }
