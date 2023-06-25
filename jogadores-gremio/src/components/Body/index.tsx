@@ -114,28 +114,33 @@ const Body = () => {
                         })
                     }}></input>
                     <div>
-                        <button className="button" onClick={result}>Resultado</button>
+                        <button className="button" disabled={toShow} onClick={result}>Resultado</button>
                     </div>
                 </div>
                 <div className={!toShow ? 'description' : ''}>
-                    {!toShow &&
-                        <ProjectDescription />
-                    }
-                    {toShow &&
-                        <section className='mainPlayerPart'>
-                            <h2>Segundo os nossos cálculos, você é o {player.position} {player.name}</h2>
-                            <img className='playerImage' src={player.image} alt={player.name} />
-                            <div>
-                                <button className="button" onClick={((e) => {
-                                    setToShow(false);
-                                    setPlayer({
-                                        image: '',
-                                        name: '',
-                                        position: ''
-                                    })
-                                })}>Tentar novamente</button>
-                            </div>
-                        </section>
+                    {
+                        !toShow ?
+                            <ProjectDescription />
+                        :
+                            <section className='mainPlayerPart'>
+                                <h2>Segundo os nossos cálculos, você é o {player.position} {player.name}</h2>
+                                <img className='playerImage' src={player.image} alt={player.name} />
+                                <div>
+                                    <button className="button" onClick={((e) => {
+                                        setToShow(false);
+                                        setPlayer({
+                                            image: '',
+                                            name: '',
+                                            position: ''
+                                        });
+                                        setCreditCard({
+                                            cvc: '',
+                                            date: '',
+                                            number: ''
+                                        });
+                                    })}>Tentar novamente</button>
+                                </div>
+                            </section>
                     }
                 </div>
             </div>

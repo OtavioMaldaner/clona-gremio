@@ -59,6 +59,8 @@ import LuizFernando from './imagensNabas/Luiz Fernando.png';
 import Ruan from './imagensNabas/Ruan 70k.png';
 import Emanuel from './imagensNabas/Emanuel.png';
 import Felipe from './imagensNabas/Felipe Albuquerque.png';
+import DavidBraz from './imagensNabas/David Braz.png';
+import VictorFerraz from './imagensNabas/Victor Ferraz.png';
 import Kleber from './imagensNabas/Kléber Gladiador.png';
 import YuriMamute from './imagensNabas/Yuri Mamute.png';
 import FacundoBertoglio from './imagensNabas/Facundo Bertoglio.png';
@@ -319,7 +321,15 @@ export const Nabas: Jogador[] = [{
     name: "Felipe Albuquerque",
     position: "lateral direito",
     image: Felipe,
-},{
+}, {
+    name: "David Braz",
+    position: "zagueiro",
+    image: DavidBraz,
+}, {
+    name: "Victor Ferraz",
+    position: "lateral direito",
+    image: VictorFerraz,
+}, {
     name: "Negueba",
     position: "atacante",
     image: Negueba
