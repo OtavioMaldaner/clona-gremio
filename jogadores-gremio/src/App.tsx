@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
+import { Analytics } from '@vercel/analytics/react';
 import './App.scss';
 import Header from './components/Header';
 import Body from './components/Body';
@@ -11,6 +10,7 @@ const App = () => {
             <Header />
             <Body />
             <Footer />
+            <Analytics />
         </div>
     );
 }
