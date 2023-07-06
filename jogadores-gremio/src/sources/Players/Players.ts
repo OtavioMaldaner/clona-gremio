@@ -164,10 +164,6 @@ export const Jogadores: Jogador[] = [{
     name: "Jhonata Robert",
     position: "atacante",
     image: JhonataRobert,
-},{
-    name: "Diego Souza",
-    position: "atacante",
-    image: DiegoSouza,
 }, {
     name: "Adriel",
     position: "goleiro",
