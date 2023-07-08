@@ -3,37 +3,36 @@ import Brenno from './images/Brenno.png';
 import Fabio from './images/Fábio.png';
 import Geromel from './images/Geromel.png';
 import Kannemann from './images/Kannemann.png'; 
-import Nathan from './images/Nathan.png';
+import Nathan from './images/Nathan.webp';
 import Carballo from './images/Felipe Carballo.png';
-import Suarez from './images/Luís Suárez.png';
+import Suarez from './images/Luís Suárez.webp';
 import Ferreira from './images/Ferreira.png';
-import Vina from './images/Vina.png';
+import Vina from './images/Vina.webp';
 import GabrielGrando from './images/Gabriel Grando.png';
 import Galdino from './images/Everton Galdino.png';
 import BrunoUvini from './images/Bruno Uvini.png';
-import LucasSilva from './images/Lucas Silva.png';
 import Gustavinho from './images/Gustavinho.png';
 import JoaoPedro from './images/João Pedro.png';
 import Cristaldo from './images/Franco Cristaldo.png';
-import Villasanti from './images/Mathías Villasanti.png';
-import Reinaldo from './images/Reinaldo.png';
-import Pepe from './images/Pepê.png';
+import Villasanti from './images/Mathías Villasanti.webp';
+import Reinaldo from './images/Reinaldo.webp';
+import Pepe from './images/Pepê.webp';
 import JhonataRobert from './images/Jhonata Robert.png';
-import DiegoSouza from './images/Diego Souza.png';
 import Adriel from './images/Adriel.png';
 import BrunoAlves from './images/Bruno Alves.png'; 
-import Ronald from './images/Ronald.png';
-import Nata from './images/Natã.png';
+import Ronald from './images/Ronald.webp';
+import Nata from './images/Natã.webp';
 import Bitello from './images/Bitello.png';
 import FelipeScheibig from './images/Felipe Scheibig.png';
-import Rubens from './images/Rubens.png';
-import Zinho from './images/Zinho.png';
+import Rubens from './images/Rubens.webp';
+import Zinho from './images/Zinho.webp';
 import GustavoMartins from './images/Gustavo Martins.png';
 import Cuiabano from './images/Cuiabano.png';
 import AndreHenrique from './images/André Henrique.png';
 
 // imagens das nabas
 import Thaciano from './imagensNabas/Thaciano.png';
+import LucasSilva from './imagensNabas/Lucas Silva.png';
 import ThiagoSantos from './imagensNabas/Thiago Santos.png'
 import DiogoBarbosa from './imagensNabas/Diogo Barbosa.png';
 import Guilherme from './imagensNabas/Guilherme.png';
@@ -133,10 +132,6 @@ export const Jogadores: Jogador[] = [{
     position: "zagueiro",
     image: BrunoUvini,
 }, {
-    name: "Lucas Silva",
-    position: "volante",
-    image: LucasSilva,
-}, {
     name: "Gustavinho",
     position: "atacante",
     image: Gustavinho,
@@ -217,6 +212,10 @@ export const Nabas: Jogador[] = [{
     name: "Thiago Santos",
     position: "volante",
     image: ThiagoSantos,
+}, {
+    name: "Lucas Silva",
+    position: "volante",
+    image: LucasSilva,
 }, {
     name: "Thaciano",
     position: "versátil",
