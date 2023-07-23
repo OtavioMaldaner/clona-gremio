@@ -106,11 +106,10 @@ $borderColor: $defaultFontColor;
                 width: 355px;
                 box-shadow: 0 0 20px 8px $playerShadow;
                 margin: 20px 0;
-                // object-fit: cover;
                 border-radius: 5px;
                 @media (max-width: $mediumSize) {
                     width: 100%;
-                    height: 85%;
+                    height: 100%;
                 }
             }
         }

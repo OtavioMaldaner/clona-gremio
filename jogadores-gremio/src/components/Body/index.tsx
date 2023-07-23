@@ -95,13 +95,13 @@ const Body = () => {
                     <div className="body-title">
                         <h1>Dados do cartão:</h1>
                     </div>
-                    <input type="text" id="name" value={creditCard.number} required placeholder="Número do cartão..." maxLength={19} onChange={(e)=> {
+                    <input type="text" inputMode='numeric' id="name" value={creditCard.number} required placeholder="Número do cartão..." maxLength={19} onChange={(e)=> {
                         setCreditCard({
                             ...creditCard, 
                             number: points(e.target.value)
                         })
                     }}></input>
-                    <input type="text" id="number" value={creditCard.cvc} required maxLength={3} placeholder="Os três números atrás..." onChange={(e)=> {
+                    <input type="text" id="number" inputMode='numeric' value={creditCard.cvc} required maxLength={3} placeholder="Os três números atrás..." onChange={(e)=> {
                         setCreditCard({
                             ...creditCard, 
                             cvc: e.target.value
