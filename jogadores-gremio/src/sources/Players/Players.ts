@@ -1,21 +1,25 @@
 // imagens dos jogadores
-import Brenno from './images/Brenno.webp';
+// import Brenno from './images/Brenno.webp';
 import Fabio from './images/Fábio.webp';
 import Geromel from './images/Geromel.webp';
 import Kannemann from './images/Kannemann.webp'; 
-import Nathan from './images/Nathan.webp';
+import RodrigoEly from './images/Rodrigo Ely.webp';
+import Reinaldo from './images/Reinaldo.webp';
+import Luan from './images/Luan.webp';
 import Carballo from './images/Felipe Carballo.webp';
 import Suarez from './images/Luís Suárez.webp';
 import Ferreira from './images/Ferreira.webp';
-import Iturbe from './images/Iturbe.webp';
+import JP from './images/JP Galvão.webp';
 import GabrielGrando from './images/Gabriel Grando.webp';
 import Galdino from './images/Everton Galdino.webp';
+import Nathan from './images/Nathan.webp';
 import BrunoUvini from './images/Bruno Uvini.webp';
 import Gustavinho from './images/Gustavinho.webp';
 import JoaoPedro from './images/João Pedro.webp';
 import Cristaldo from './images/Franco Cristaldo.webp';
 import Villasanti from './images/Mathías Villasanti.webp';
-import Reinaldo from './images/Reinaldo.webp';
+import Iturbe from './images/Iturbe.webp';
+import Besozzi from './images/Lucas Besozzi.webp';
 import Pepe from './images/Pepê.webp';
 import JhonataRobert from './images/Jhonata Robert.webp';
 // import Adriel from './images/Adriel.webp';
@@ -85,11 +89,13 @@ export type Jogador = {
     position: string,
     image: string,
 }
-export const Jogadores: Jogador[] = [{
-    name: "Brenno",
-    position: "goleiro",
-    image: Brenno,
-}, {
+export const Jogadores: Jogador[] = [
+// {
+//     name: "Brenno",
+//     position: "goleiro",
+//     image: Brenno,
+// },
+ {
     name: "Fábio",
     position: "lateral direito",
     image: Fabio,
@@ -102,10 +108,18 @@ export const Jogadores: Jogador[] = [{
     position: "zagueiro",
     image: Kannemann,
 }, {
-    name: "Nathan",
-    position: "meia",
-    image: Nathan,
+    name: "Rodrigo ELy",
+    position: "zagueiro",
+    image: RodrigoEly,
 }, {
+    name: "Reinaldo",
+    position: "lateral esquerdo",
+    image: Reinaldo,
+},  {
+    name: "Luan",
+    position: "meia",
+    image: Luan,
+},{
     name: "Felipe Carballo",
     position: "meio campo",
     image: Carballo,
@@ -118,9 +132,9 @@ export const Jogadores: Jogador[] = [{
     position: "atacante",
     image: Ferreira,
 }, {
-    name: "Iturbe",
+    name: "João Pedro",
     position: "atacante",
-    image: Iturbe,
+    image: JP,
 }, {
     name: "Gabriel Grando",
     position: "goleiro",
@@ -129,7 +143,11 @@ export const Jogadores: Jogador[] = [{
     name: "Everton Galdino",
     position: "meia",
     image: Galdino,
-},{
+}, {
+    name: "Nathan",
+    position: "meia",
+    image: Nathan,
+}, {
     name: "Bruno Uvini",
     position: "zagueiro",
     image: BrunoUvini,
@@ -149,11 +167,15 @@ export const Jogadores: Jogador[] = [{
     name: "Mathías Villasanti",
     position: "volante",
     image: Villasanti
+},  {
+    name: "Iturbe",
+    position: "atacante",
+    image: Iturbe,
 }, {
-    name: "Reinaldo",
-    position: "lateral esquerdo",
-    image: Reinaldo,
-}, {
+    name: "Lucas Besozzi",
+    position: "atacante",
+    image: Besozzi,
+},  {
     name: "Pepê",
     position: "meio campo",
     image: Pepe,
