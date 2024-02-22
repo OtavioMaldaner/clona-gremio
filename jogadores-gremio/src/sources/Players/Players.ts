@@ -1,88 +1,83 @@
 // imagens dos jogadores
-// import Brenno from './images/Brenno.webp';
 import Fabio from './images/Fábio.webp';
 import Geromel from './images/Geromel.webp';
-import Kannemann from './images/Kannemann.webp'; 
-import RodrigoEly from './images/Rodrigo Ely.webp';
+import Kannemann from './images/Kannemann.webp';
+import Marchesin from './images/Marchesin.webp';
 import Reinaldo from './images/Reinaldo.webp';
-import Luan from './images/Luan.webp';
+import RodrigoEly from './images/Rodrigo Ely.webp';
+
 import Carballo from './images/Felipe Carballo.webp';
-import Suarez from './images/Luís Suárez.webp';
-import Ferreira from './images/Ferreira.webp';
-import JP from './images/JP Galvão.webp';
-import GabrielGrando from './images/Gabriel Grando.webp';
-import Galdino from './images/Everton Galdino.webp';
-import Nathan from './images/Nathan.webp';
+
 import BrunoUvini from './images/Bruno Uvini.webp';
-import Gustavinho from './images/Gustavinho.webp';
-import JoaoPedro from './images/João Pedro.webp';
+import Galdino from './images/Everton Galdino.webp';
+import GabrielGrando from './images/Gabriel Grando.webp';
+import JP from './images/JP Galvão.webp';
+import Nathan from './images/Nathan.webp';
+
 import Cristaldo from './images/Franco Cristaldo.webp';
+import JoaoPedro from './images/João Pedro.webp';
 import Villasanti from './images/Mathías Villasanti.webp';
-import Iturbe from './images/Iturbe.webp';
-import Besozzi from './images/Lucas Besozzi.webp';
-import Pepe from './images/Pepê.webp';
-import JhonataRobert from './images/Jhonata Robert.webp';
-// import Adriel from './images/Adriel.webp';
-import BrunoAlves from './images/Bruno Alves.webp'; 
-import Ronald from './images/Ronald.webp';
-import Nata from './images/Natã.webp';
-import Bitello from './images/Bitello.webp';
-import FelipeScheibig from './images/Felipe Scheibig.webp';
-import Milla from './images/Milla.webp';
-import Rubens from './images/Rubens.webp';
-import Zinho from './images/Zinho.webp';
-import GustavoMartins from './images/Gustavo Martins.webp';
-import Cuiabano from './images/Cuiabano.webp';
-import Freddy from './images/Freddy.webp';
+
 import AndreHenrique from './images/André Henrique.webp';
+import Cuiabano from './images/Cuiabano.webp';
+import FelipeScheibig from './images/Felipe Scheibig.webp';
+import Freddy from './images/Freddy.webp';
+import GustavoMartins from './images/Gustavo Martins.webp';
+import JhonataRobert from './images/Jhonata Robert.webp';
+import Besozzi from './images/Lucas Besozzi.webp';
+import Milla from './images/Milla.webp';
+import Nata from './images/Natã.webp';
+import Pepe from './images/Pepê.webp';
+import Ronald from './images/Ronald.webp';
+import Rubens from './images/Rubens.webp';
 
 // imagens das nabas
-import Thaciano from './imagensNabas/Thaciano.webp';
-import LucasSilva from './imagensNabas/Lucas Silva.webp';
-import ThiagoSantos from './imagensNabas/Thiago Santos.webp'
+import Adriano from './imagensNabas/Adriano Pagode.webp';
+import Alisson from './imagensNabas/Alisson.webp';
+import AndreSantos from './imagensNabas/André Santos.webp';
+import Benitez from './imagensNabas/Benítez.webp';
+import Bobo from './imagensNabas/Bobô.webp';
+import Borja from './imagensNabas/Borja.webp';
+import Cris from './imagensNabas/Cris.webp';
+import Darlan from './imagensNabas/Darlan.webp';
+import DavidBraz from './imagensNabas/David Braz.webp';
+import Churin from './imagensNabas/Diego Churín.webp';
 import DiogoBarbosa from './imagensNabas/Diogo Barbosa.webp';
+import DC from './imagensNabas/Douglas Costa.webp';
+import EliasManoel from './imagensNabas/Elias Manoel.webp';
+import Emanuel from './imagensNabas/Emanuel.webp';
+import Everton from './imagensNabas/Everton Cenourinha.webp';
+import FacundoBertoglio from './imagensNabas/Facundo Bertoglio.webp';
+import Felipe from './imagensNabas/Felipe Albuquerque.webp';
+import Fred from './imagensNabas/Fred.webp';
 import Guilherme from './imagensNabas/Guilherme.webp';
-import RodrigoFerreira from './imagensNabas/Rodrigo Ferreira.webp';
 import JamintonCampaz from './imagensNabas/Jaminton Campaz.webp';
 import Janderson from './imagensNabas/Janderson.webp';
-import Ricardinho from './imagensNabas/Ricardinho.webp';
-import EliasManoel from './imagensNabas/Elias Manoel.webp';
-import Sarara from './imagensNabas/Sarará.webp';
-import Benitez from './imagensNabas/Benítez.webp';
-import Tonhao from './imagensNabas/Tonhão.webp';
-import Rildo from './imagensNabas/Rildo.webp';
-import Orejuela from './imagensNabas/Luís Orejuela.webp';
-import Churin from './imagensNabas/Diego Churín.webp';
-import DC from './imagensNabas/Douglas Costa.webp';
-import Alisson from './imagensNabas/Alisson.webp';
-import Borja from './imagensNabas/Borja.webp';
-import PauloMiranda from './imagensNabas/Paulo Miranda.webp';
-import Everton from './imagensNabas/Everton Cenourinha.webp';
-import Darlan from './imagensNabas/Darlan.webp';
-import LeoPereira from './imagensNabas/Léo Pereira.webp';
-import LuizFernando from './imagensNabas/Luiz Fernando.webp';
-import Ruan from './imagensNabas/Ruan 70k.webp';
-import Emanuel from './imagensNabas/Emanuel.webp';
-import Felipe from './imagensNabas/Felipe Albuquerque.webp';
-import DavidBraz from './imagensNabas/David Braz.webp';
-import VictorFerraz from './imagensNabas/Victor Ferraz.webp';
 import Kleber from './imagensNabas/Kléber Gladiador.webp';
-import YuriMamute from './imagensNabas/Yuri Mamute.webp';
-import FacundoBertoglio from './imagensNabas/Facundo Bertoglio.webp';
-import Werley from './imagensNabas/Werley.webp';
-import Miralles from './imagensNabas/Miralles.webp';
-import Marquinhos from './imagensNabas/Marquinhos.webp';
-import Saimon from './imagensNabas/Saimon.webp';
-import Cris from './imagensNabas/Cris.webp';
-import Wellinton from './imagensNabas/Wellinton.webp';
-import Para from './imagensNabas/Pará.webp';
-import AndreSantos from './imagensNabas/André Santos.webp';
-import MaxiRodrigues from './imagensNabas/Maxi Rodrigues.webp';
-import Adriano from './imagensNabas/Adriano Pagode.webp';
 import LucasCoelho from './imagensNabas/Lucas Coelho.webp';
-import Bobo from './imagensNabas/Bobô.webp';
-import Fred from './imagensNabas/Fred.webp';
+import LucasSilva from './imagensNabas/Lucas Silva.webp';
+import LuizFernando from './imagensNabas/Luiz Fernando.webp';
+import Orejuela from './imagensNabas/Luís Orejuela.webp';
+import LeoPereira from './imagensNabas/Léo Pereira.webp';
+import Marquinhos from './imagensNabas/Marquinhos.webp';
+import MaxiRodrigues from './imagensNabas/Maxi Rodrigues.webp';
+import Miralles from './imagensNabas/Miralles.webp';
 import Negueba from './imagensNabas/Negueba.webp';
+import Para from './imagensNabas/Pará.webp';
+import PauloMiranda from './imagensNabas/Paulo Miranda.webp';
+import Ricardinho from './imagensNabas/Ricardinho.webp';
+import Rildo from './imagensNabas/Rildo.webp';
+import RodrigoFerreira from './imagensNabas/Rodrigo Ferreira.webp';
+import Ruan from './imagensNabas/Ruan 70k.webp';
+import Saimon from './imagensNabas/Saimon.webp';
+import Sarara from './imagensNabas/Sarará.webp';
+import Thaciano from './imagensNabas/Thaciano.webp';
+import ThiagoSantos from './imagensNabas/Thiago Santos.webp';
+import Tonhao from './imagensNabas/Tonhão.webp';
+import VictorFerraz from './imagensNabas/Victor Ferraz.webp';
+import Wellinton from './imagensNabas/Wellinton.webp';
+import Werley from './imagensNabas/Werley.webp';
+import YuriMamute from './imagensNabas/Yuri Mamute.webp';
 
 export type Jogador = {
     name: string,
@@ -90,11 +85,11 @@ export type Jogador = {
     image: string,
 }
 export const Jogadores: Jogador[] = [
-// {
-//     name: "Brenno",
-//     position: "goleiro",
-//     image: Brenno,
-// },
+{
+    name: "Agustín Marchesín",
+    position: "goleiro",
+    image: Marchesin,
+}, 
  {
     name: "Fábio",
     position: "lateral direito",
@@ -115,23 +110,28 @@ export const Jogadores: Jogador[] = [
     name: "Reinaldo",
     position: "lateral esquerdo",
     image: Reinaldo,
-},  {
-    name: "Luan",
-    position: "meia",
-    image: Luan,
-},{
+},
+//   {
+//     name: "Luan",
+//     position: "meia",
+//     image: Luan,
+// },
+{
     name: "Felipe Carballo",
     position: "meio campo",
     image: Carballo,
-}, {
-    name: "Luís Suárez",
-    position: "atacante",
-    image: Suarez,
-}, {
-    name: "Ferreira",
-    position: "atacante",
-    image: Ferreira,
-}, {
+}, 
+// {
+//     name: "Luís Suárez",
+//     position: "atacante",
+//     image: Suarez,
+// }, 
+// {
+//     name: "Ferreira",
+//     position: "atacante",
+//     image: Ferreira,
+// }, 
+{
     name: "João Pedro",
     position: "atacante",
     image: JP,
@@ -151,11 +151,13 @@ export const Jogadores: Jogador[] = [
     name: "Bruno Uvini",
     position: "zagueiro",
     image: BrunoUvini,
-}, {
-    name: "Gustavinho",
-    position: "atacante",
-    image: Gustavinho,
-}, {
+},
+//  {
+//     name: "Gustavinho",
+//     position: "atacante",
+//     image: Gustavinho,
+// }, 
+{
     name: "João Pedro",
     position: "lateral direito",
     image: JoaoPedro,
@@ -167,11 +169,13 @@ export const Jogadores: Jogador[] = [
     name: "Mathías Villasanti",
     position: "volante",
     image: Villasanti
-},  {
-    name: "Iturbe",
-    position: "atacante",
-    image: Iturbe,
-}, {
+},  
+// {
+//     name: "Iturbe",
+//     position: "atacante",
+//     image: Iturbe,
+// }, 
+{
     name: "Lucas Besozzi",
     position: "atacante",
     image: Besozzi,
@@ -183,17 +187,18 @@ export const Jogadores: Jogador[] = [
     name: "Jhonata Robert",
     position: "atacante",
     image: JhonataRobert,
-}
+},
 // , {
 //     name: "Adriel",
 //     position: "goleiro",
 //     image: Adriel,
 // }
-, {
-    name: "Bruno Alves",
-    position: "zagueiro",
-    image: BrunoAlves,
-}, {
+// , {
+//     name: "Bruno Alves",
+//     position: "zagueiro",
+//     image: BrunoAlves,
+// }, 
+{
     name: "Ronald",
     position: "volante",
     image: Ronald,
@@ -201,11 +206,13 @@ export const Jogadores: Jogador[] = [
     name: "Natã",
     position: "zagueiro",
     image: Nata,
-}, {
-    name: "Bitello",
-    position: "meia",
-    image: Bitello,
-}, {
+},
+//  {
+//     name: "Bitello",
+//     position: "meia",
+//     image: Bitello,
+// }, 
+{
     name: "Felipe Scheibig",
     position: "goleiro",
     image: FelipeScheibig,
@@ -217,11 +224,13 @@ export const Jogadores: Jogador[] = [
     name: "Rubens",
     position: "atacante",
     image: Rubens,
-}, {
-    name: "Zinho",
-    position: "atacante",
-    image: Zinho,
-}, {
+},
+//  {
+//     name: "Zinho",
+//     position: "atacante",
+//     image: Zinho,
+// }, 
+{
     name: "Gustavo Martins",
     position: "zagueiro",
     image: GustavoMartins,
